@@ -2,7 +2,7 @@ timer.js
 ========
 
 ```javascript
-timer = new Timer
+var timer = new Timer()
 timer.start()
 timer.stop()
 timer.pause()
