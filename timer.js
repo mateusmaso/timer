@@ -4,13 +4,13 @@ module.exports = function() {
   this.seconds = 0;
 
   this.start = function() {
-  	_this.stop();
-  	_this.resume();
+    _this.stop();
+    _this.resume();
   };
 
   this.stop = function() {
-  	_this.pause();
-  	_this.seconds = 0;
+    _this.pause();
+    _this.seconds = 0;
   };
 
   this.pause = function() {
@@ -20,9 +20,9 @@ module.exports = function() {
 
   this.resume = function() {
     if (_this.interval) return;
-  	_this.interval = setInterval(function() {
-  	  _this.seconds += 1;
-  	}, 1000);
+    _this.interval = setInterval(function() {
+      _this.seconds += 1;
+    }, 1000);
   };
   
 };
