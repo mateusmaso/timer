@@ -1,4 +1,4 @@
-timer.js
+timer
 ========
 
 ```javascript
